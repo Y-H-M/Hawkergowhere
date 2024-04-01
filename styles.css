@@ -98,9 +98,14 @@ header #Nav-Bar button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
+#search h1,
+#search h2,
+#search h3,
+#search form {
+  margin: 10px 0;
+}
 
 #searchbar {
   width: 40%;
