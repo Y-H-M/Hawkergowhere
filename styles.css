@@ -95,9 +95,16 @@ header #Nav-Bar button {
   text-align: center;
   color: inherit;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
+
+#search > * {
+  margin-bottom: 10px;
+}
+
 
 #searchbar {
   width: 40%;
@@ -121,7 +128,7 @@ header #Nav-Bar button {
   font-size: var(--tertiary-font-size)
 }
 
-search h3{
+#search h3{
   font-size: var(--paragraph-font-size)
 }
 
