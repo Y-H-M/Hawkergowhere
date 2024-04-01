@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-background-color);
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Libre Franklin", serif;
   --primary-background-color: #f6f5f5;
   --secondary-background-color: #e3e3e3;
   --hawker-background-color: #f3f3f3;
@@ -102,11 +102,11 @@ header #Nav-Bar button {
 }
 
 #searchform {
-  width: 75vh;
+  width: 100%;
 }
 
 #searchbar {
-  width: 80%;
+  width: 40%;
   margin-right: 5px;
 }
 
