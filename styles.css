@@ -98,17 +98,15 @@ header #Nav-Bar button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 75vh;
 }
 
-#search h1,
-#search h2,
-#search h3,
-#search form {
-  margin: 10px 0;
+#searchform {
+  width: 100%;
 }
 
 #searchbar {
-  width: 40%;
+  width: 80%;
   margin-right: 5px;
 }
 
@@ -121,16 +119,19 @@ header #Nav-Bar button {
   background-color: var(--primary-background-color);
 }
 
-#search h1{
+#search h1 {
   font-size: var(--secondary-font-size);
+  margin-bottom: 10px;
 }
 
-#search h2{
-  font-size: var(--tertiary-font-size)
+#search h2 {
+  font-size: var(--tertiary-font-size);
+  margin-bottom: 10px;
 }
 
-#search h3{
-  font-size: var(--paragraph-font-size)
+#search h3 {
+  font-size: var(--paragraph-font-size);
+  margin-bottom: 10px;
 }
 
 #saved {
