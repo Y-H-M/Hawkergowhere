@@ -93,7 +93,7 @@ header #Nav-Bar button {
   background: none;
   box-shadow: none;
   text-align: center;
-  color: inherit;
+  color: var(--primary-text-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
