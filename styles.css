@@ -107,7 +107,7 @@ header #Nav-Bar button {
 }
 
 #searchbar {
-  width: 80%;
+  width: 50%;
   margin-right: 5px;
   border-radius: 10px;
 }
@@ -152,6 +152,10 @@ header #Nav-Bar button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+#result-searchbar{
+  width:100%;
 }
 
 #saved {
