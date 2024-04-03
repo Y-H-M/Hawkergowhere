@@ -103,6 +103,7 @@ header #Nav-Bar button {
 
 #searchform {
   width: 100%;
+  font-size: var(--secondary-font-size);
 }
 
 #searchbar {
@@ -132,6 +133,12 @@ header #Nav-Bar button {
 #search h3 {
   font-size: var(--paragraph-font-size);
   margin-bottom: 10px;
+}
+
+#search-box{
+  font-size: var(--secondary-font-size);
+  width: 40%;
+  margin-left: 5px;
 }
 
 #saved {
