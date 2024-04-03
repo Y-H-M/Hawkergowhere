@@ -111,7 +111,7 @@ header #Nav-Bar button {
   margin-right: 5px;
 }
 
-#search button[type="submit"] {
+#search-button {
   border-radius: 10px;
   border: none;
   height: 35px;
