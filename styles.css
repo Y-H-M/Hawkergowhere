@@ -156,6 +156,8 @@ header #Nav-Bar button {
 
 #result-searchbar{
   width:100%;
+  margin-right: 5px;
+  border-radius: 10px;
 }
 
 #saved {
