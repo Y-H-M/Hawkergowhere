@@ -102,13 +102,14 @@ header #Nav-Bar button {
 }
 
 #searchform {
-  width: 100%;
+  width: 80%;
   font-size: var(--secondary-font-size);
 }
 
 #searchbar {
-  width: 40%;
+  width: 80%;
   margin-right: 5px;
+  border-radius: 5px;
 }
 
 #search-button {
@@ -139,6 +140,10 @@ header #Nav-Bar button {
   font-size: var(--secondary-font-size);
   width: 40%;
   margin-left: 5px;
+}
+
+#result-search-box{
+  margin: 5vh 20vh 5vh 20vh;
 }
 
 #saved {
