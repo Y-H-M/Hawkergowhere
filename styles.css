@@ -109,11 +109,11 @@ header #Nav-Bar button {
 #searchbar {
   width: 80%;
   margin-right: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #search-button {
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   height: 35px;
   width: 35px;
@@ -143,7 +143,15 @@ header #Nav-Bar button {
 }
 
 #result-search-box{
-  margin: 5vh 20vh 5vh 20vh;
+  height: 10vh;
+  width: 100vh;
+}
+
+#result-search-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #saved {
